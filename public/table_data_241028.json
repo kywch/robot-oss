@@ -1,0 +1,472 @@
+{
+    "title": "Robotics open-source projects (2024/10)",
+    "texts": [
+      {
+        "id": 1730160469747,
+        "content": "Improved policy + RL fine-tuning",
+        "x": 135,
+        "y": 17,
+        "isEditing": false,
+        "isSelected": false,
+        "color": "#000000",
+        "fontSize": 24,
+        "zIndex": 115
+      },
+      {
+        "id": 1730160616868,
+        "content": "UMI: train on real, test on sim (single-hand)",
+        "x": 623.2222222222222,
+        "y": 19.11111111111111,
+        "isEditing": false,
+        "isSelected": false,
+        "color": "#000000",
+        "fontSize": 24,
+        "zIndex": 299
+      },
+      {
+        "id": 1730160888303,
+        "content": "Human video -> humanoid",
+        "x": 139,
+        "y": 287,
+        "isEditing": false,
+        "isSelected": false,
+        "color": "#000000",
+        "fontSize": 24,
+        "zIndex": 146
+      },
+      {
+        "id": 1730161067736,
+        "content": "New task/demo generation w/ VLM",
+        "x": 661.6666666666666,
+        "y": 212.2222222222222,
+        "isEditing": false,
+        "isSelected": false,
+        "color": "#000000",
+        "fontSize": 24,
+        "zIndex": 292
+      },
+      {
+        "id": 1730161528828,
+        "content": "Interesting VLM use cases",
+        "x": 723.3333333333331,
+        "y": 347.7777777777778,
+        "isEditing": false,
+        "isSelected": false,
+        "color": "#000000",
+        "fontSize": 24,
+        "zIndex": 301
+      },
+      {
+        "id": 1730161617781,
+        "content": "Impressive manipulation demos: ",
+        "x": 31.1111111111111,
+        "y": 496.66666666666663,
+        "isEditing": false,
+        "isSelected": false,
+        "color": "#000000",
+        "fontSize": 24,
+        "zIndex": 302
+      }
+    ],
+    "cards": [
+      {
+        "key": "ReKep",
+        "title": "Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
+        "tags": [
+          "FeiFei",
+          "policy",
+          "hierarchical",
+          "OmniGibson"
+        ],
+        "paper": "https://arxiv.org/abs/2409.01652",
+        "website": "https://rekep-robot.github.io/",
+        "repo": "https://github.com/huangwl18/ReKep",
+        "notes": "Large vision models and vision-language models can generate keypoint-based constraints, which can be optimized to achieve multi-stage, in-the-wild, bimanual, and reactive behaviors, without task-specific training or environment models.",
+        "x": 648,
+        "y": 266.1111111111111,
+        "zIndex": 286
+      },
+      {
+        "key": "RoboCasa",
+        "title": "Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+        "tags": [
+          "NVIDIA",
+          "YukeZhu",
+          "benchmark",
+          "dataset",
+          "RoboSuite"
+        ],
+        "paper": "https://arxiv.org/abs/2406.02523",
+        "website": "https://robocasa.ai/",
+        "repo": "https://github.com/robocasa/robocasa",
+        "notes": "2,500 3D assets across 150+ object categories and dozens of interactable furniture and appliances. A suite of 100 everyday activities with 100k demonstrations.",
+        "x": 885,
+        "y": 71,
+        "zIndex": 132
+      },
+      {
+        "key": "Behavior-1k",
+        "title": "A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+        "tags": [
+          "FeiFei",
+          "benchmark",
+          "OmniGibson"
+        ],
+        "paper": "https://arxiv.org/abs/2403.09227",
+        "website": "https://behavior.stanford.edu/behavior-1k",
+        "repo": "https://github.com/StanfordVL/OmniGibson",
+        "notes": "the 1,000 activities come from the results of an extensive survey on what do you want robots to do for you?",
+        "x": 962.5555555555555,
+        "y": 265.1111111111111,
+        "zIndex": 293
+      },
+      {
+        "key": "LAPA",
+        "title": "Latent Action Pretraining from Videos",
+        "tags": [
+          "NVIDIA",
+          "KAIST",
+          "policy"
+        ],
+        "paper": "https://arxiv.org/abs/2410.11758",
+        "website": "https://latentactionpretraining.github.io/",
+        "repo": "https://github.com/LatentActionPretraining/LAPA",
+        "notes": "a method to learn from internet-scale videos that do not have robot action labels.",
+        "x": 57,
+        "y": 338,
+        "zIndex": 149
+      },
+      {
+        "key": "UMIonLegs",
+        "title": "Making Manipulation Policies Mobile with Manipulation-Centric Whole-body Controllers",
+        "tags": [
+          "ShuranSong",
+          "policy"
+        ],
+        "paper": "https://arxiv.org/abs/2407.10353",
+        "website": "https://umi-on-legs.github.io/",
+        "repo": "https://github.com/real-stanford/umi-on-legs",
+        "notes": "robot data without robots, task tracking without simulating tasks, combining real-world human demonstrations with simulation trained whole-body controllers, providing a scalable approach for manipulation skills on robot dogs with arms.",
+        "x": 724,
+        "y": 71,
+        "zIndex": 131
+      },
+      {
+        "key": "HumanoidMPC",
+        "title": "MuJoCo MPC for Humanoid Control, Evaluation on HumanoidBench",
+        "tags": [
+          "policy",
+          "mpc"
+        ],
+        "paper": "https://arxiv.org/pdf/2408.00342",
+        "repo": "https://github.com/MoritzMeser/mujoco_mpc",
+        "notes": "sparse reward functions of HumanoidBench yield undesirable and unrealistic behaviors when optimized. enabling easy experimentation with MPC for humanoid robot control in simulation",
+        "x": 384,
+        "y": 411,
+        "zIndex": 217
+      },
+      {
+        "key": "iDP3",
+        "title": "Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies",
+        "tags": [
+          "JaijunWu",
+          "policy",
+          "data collection"
+        ],
+        "paper": "https://arxiv.org/abs/2410.10803",
+        "website": "https://humanoid-manipulation.github.io/",
+        "repo": "https://github.com/YanjieZe/Improved-3D-Diffusion-Policy",
+        "notes": "iDP3 enables a full-sized humanoid robot to autonomously perform skills in diverse real-world scenarios, using only data collected in the lab. Apple Vision Pro to build a whole-upper-body teleoperation system.",
+        "x": 192,
+        "y": 207,
+        "zIndex": 109
+      },
+      {
+        "key": "Gen2Act",
+        "title": "Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation",
+        "tags": [
+          "DeepMind",
+          "policy",
+          "out-of-distribution"
+        ],
+        "paper": "https://arxiv.org/abs/2409.16283",
+        "website": "https://homangab.github.io/gen2act/",
+        "notes": "Gen2Act first imagines how a human would perform the task through video generation with a pre-trained model, and then executes a common policy conditioned on the generated video.",
+        "x": 386,
+        "y": 340,
+        "zIndex": 143
+      },
+      {
+        "key": "GenSim2",
+        "title": "Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+        "tags": [
+          "simulation",
+          "data generation",
+          "policy",
+          "ReKep"
+        ],
+        "paper": "https://arxiv.org/abs/2410.03645",
+        "website": "https://gensim2.github.io/",
+        "repo": "https://github.com/GenSim2/gensim2",
+        "notes": "uses multimodal LLMs to generate vast amounts of articulated, 6-dof robotic tasks in simulation for pre-training a generalist 3D multitask policies. The framework \"amplifies\" limited real world tasks and trajectories with foundation models.",
+        "x": 807.5555555555555,
+        "y": 266.22222222222223,
+        "zIndex": 287
+      },
+      {
+        "key": "OKAMI",
+        "title": "Teaching Humanoid Robots Manipulation Skills through Single Video Imitation",
+        "tags": [
+          "NVIDIA",
+          "YukeZhu",
+          "policy"
+        ],
+        "paper": "https://arxiv.org/abs/2410.11792",
+        "website": "https://ut-austin-rpl.github.io/OKAMI/",
+        "notes": "it retargets the SMPL-H trajectory to the humanoid, using inverse kinematics and dex-retargeting. The trajectory is warped based on test-time object's locations, and then sent to the real robot for execution.",
+        "x": 223,
+        "y": 340,
+        "zIndex": 144
+      },
+      {
+        "key": "SGCRL",
+        "title": "A Single Goal is All You Need. Skills and Exploration Emerge from Contrastive RL without Rewards, Demonstrations, or Subgoals",
+        "tags": [
+          "policy",
+          "RL",
+          "hard exploration",
+          "contrastive RL",
+          "no reward"
+        ],
+        "paper": "https://arxiv.org/abs/2408.05804",
+        "website": "https://graliuce.github.io/sgcrl/",
+        "repo": "https://github.com/graliuce/sgcrl/tree/main",
+        "notes": "empirical evidence of skills and directed exploration emerging from a simple RL algorithm long before any successful trials are observed. robot manipulation, maze. Try this with PPO",
+        "x": 377,
+        "y": 209,
+        "zIndex": 229
+      },
+      {
+        "key": "MaskedMimic",
+        "title": "Unified Physics-Based Character Control Through Masked Motion Inpainting",
+        "tags": [
+          "NVIDIA",
+          "policy",
+          "controller",
+          "no reward"
+        ],
+        "paper": "https://research.nvidia.com/labs/par/maskedmimic/assets/SIGGRAPHAsia2024_MaskedMimic.pdf",
+        "website": "https://research.nvidia.com/labs/par/maskedmimic/",
+        "repo": "https://github.com/NVlabs/ProtoMotions",
+        "notes": "formulates physics-based character control as a general motion inpainting problem. Our key insight is to train a single unified model to synthesize motions from partial (masked) motion descriptions. leveraging motion tracking data",
+        "x": 221,
+        "y": 410,
+        "zIndex": 150
+      },
+      {
+        "key": "RoboPoint",
+        "title": "A Vision-Language Model for Spatial Affordance Prediction for Robotics",
+        "tags": [
+          "NVIDIA",
+          "DieterFox",
+          "affordance"
+        ],
+        "paper": "https://arxiv.org/pdf/2406.10721",
+        "website": "https://robo-point.github.io/",
+        "repo": "https://github.com/wentaoyuan/RoboPoint",
+        "notes": "a VLM that predicts image keypoint affordances given language instructions. a general model that enables several downstream applications such as robot navigation, manipulation, and augmented reality (AR) assistance.",
+        "x": 645.7777777777777,
+        "y": 400.11111111111114,
+        "zIndex": 295
+      },
+      {
+        "key": "DynaMo",
+        "title": "In-Domain Dynamics Pretraining for Visuo-Motor Control",
+        "tags": [
+          "LerrelPinto",
+          "policy",
+          "representation"
+        ],
+        "paper": "https://arxiv.org/abs/2409.12192",
+        "website": "https://dynamo-ssl.github.io/",
+        "repo": "https://github.com/jeffacce/dynamo_ssl",
+        "notes": "we can learn a good visual representation for control by modeling the temporal dynamics on demonstration observations, We model the actions as unobserved latents, and train all models end-to-end with a consistency loss on the forward dynamics prediction.",
+        "x": 190,
+        "y": 142,
+        "zIndex": 110
+      },
+      {
+        "key": "BAKU",
+        "title": "An Efficient Transformer for Multi-Task Policy Learning",
+        "tags": [
+          "LerrelPinto",
+          "policy"
+        ],
+        "paper": "https://arxiv.org/abs/2406.07539",
+        "website": "https://baku-robot.github.io/",
+        "repo": "https://github.com/siddhanthaldar/BAKU/tree/main",
+        "notes": "BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking, multi-sensory observations, and action heads to substantially improve upon prior work.",
+        "x": 38,
+        "y": 75,
+        "zIndex": 104
+      },
+      {
+        "key": "Diff-Control",
+        "title": "Enabling Stateful Behaviors for Diffusion-based Policy Learning",
+        "tags": [
+          "policy",
+          "diffusion"
+        ],
+        "paper": "https://arxiv.org/abs/2404.12539",
+        "website": "https://diff-control.github.io/",
+        "repo": "https://github.com/ir-lab/Diff-Control",
+        "notes": "Diff-Control Policy incorporates ControlNet, functioning as a transition model that captures temporal transitions within the action space to ensure action consistency. shows consistent performance in the presence of perturbations,",
+        "x": 37,
+        "y": 142,
+        "zIndex": 105
+      },
+      {
+        "key": "FLaRe",
+        "title": "Achieving Masterful and Adaptive Robot Policies with Large-Scale Reinforcement Learning Fine-Tuning",
+        "tags": [
+          "policy",
+          "RL",
+          "fine-tuning"
+        ],
+        "paper": "https://arxiv.org/abs/2409.16578",
+        "website": "https://robot-flare.github.io/",
+        "notes": "stabilize the RL training process, including 1) fine-tuning from a multi-task robotics policy, 2) large-scale fine-tuning in simulation, 3) using an on-policy algorithm (PPO), 4) utilizing smaller learning rate than when performing RL from scratch, 5) disabling the entropy bonus objective, and 6) separating the actor and the critic network, so that the critic update will not influence the policy prediction.",
+        "x": 378,
+        "y": 75,
+        "zIndex": 227
+      },
+      {
+        "key": "PremierTACO",
+        "title": "Pretraining Multitask Representation via Temporal Action-Driven Contrastive Loss",
+        "tags": [
+          "policy",
+          "RL",
+          "contrastive RL",
+          "representation"
+        ],
+        "paper": "https://arxiv.org/abs/2402.06187",
+        "website": "https://premiertaco.github.io/",
+        "repo": "https://github.com/PremierTACO/premier-taco",
+        "notes": "the temporal action con- trastive learning (TACO) objective, known for state-of-the-art results in visual control tasks, Premier-TACO selects the negative example from a window within the same episode centered at positive example",
+        "x": 378,
+        "y": 141,
+        "zIndex": 228
+      },
+      {
+        "key": "StreamDiff",
+        "title": "Streaming Diffusion Policy. Fast Policy Synthesis with Variable Noise Diffusion Models",
+        "tags": [
+          "policy",
+          "diffusion"
+        ],
+        "paper": "https://arxiv.org/abs/2406.04806",
+        "website": "https://streaming-diffusion-policy.github.io/",
+        "repo": "https://github.com/Streaming-Diffusion-Policy/streaming_diffusion_policy",
+        "notes": "generating a partially denoised action trajectory is substantially faster than a full output action trajectory. dramatically speeding up policy synthesis while preserving performance",
+        "x": 36,
+        "y": 206,
+        "zIndex": 106
+      },
+      {
+        "key": "BYOVLA",
+        "title": "Run-time Observation Interventions Make Vision-Language-Action Models More Visually Robust",
+        "tags": [
+          "policy",
+          "runtime intervention"
+        ],
+        "paper": "https://arxiv.org/abs/2410.01971",
+        "website": "https://aasherh.github.io/byovla/",
+        "repo": "https://github.com/irom-lab/byovla",
+        "notes": "BYOVLA is predicated on three simple steps applied to a VLA's input image. 1) determine task-irrelevant regions, 2) quantify sensitivity by perturbing regions, and 3) transform the image. Task-irrelevant regions are determined by a vision-language model (VLM).",
+        "x": 802.7777777777778,
+        "y": 400.0000000000001,
+        "zIndex": 296
+      },
+      {
+        "key": "DiTBlock",
+        "title": "The Ingredients for Robotic Diffusion Transformers",
+        "tags": [
+          "SergeyLevine",
+          "policy",
+          "diffusion",
+          "dataset"
+        ],
+        "paper": "https://arxiv.org/abs/2410.10088",
+        "website": "https://dit-policy.github.io/",
+        "repo": "https://github.com/sudeepdasari/dit-policy",
+        "notes": "makes a few simple, yet impactful, changes to the vanilla diffusion transformer recipe. add adaLN-zero layers to the transformer blocks and further optimize the input encoding layers. we collected and annotated BiPlay, a more diverse bi-manual manipulation dataset. robosuite",
+        "x": 190,
+        "y": 75,
+        "zIndex": 107
+      },
+      {
+        "key": "DataScaling",
+        "title": "Data Scaling Laws in Imitation Learning for Robotic Manipulation",
+        "tags": [
+          "dataset",
+          "UMI"
+        ],
+        "paper": "https://arxiv.org/abs/2410.18647",
+        "website": "https://data-scaling-laws.github.io/",
+        "repo": "https://github.com/Fanqi-Lin/Data-Scaling-Laws",
+        "notes": "with proper data scaling, a single-task policy can generalize well to any new environment and any new object within the same category. The diversity of environments and objects is far more important than the absolute number of demonstrations",
+        "x": 724,
+        "y": 133,
+        "zIndex": 133
+      },
+      {
+        "key": "VisuoSkin",
+        "title": "Learning Precise, Contact-Rich Manipulation through Uncalibrated Tactile Skins",
+        "tags": [
+          "LerrelPinto",
+          "policy",
+          "tactile"
+        ],
+        "paper": "https://arxiv.org/abs/2410.17246",
+        "website": "https://visuoskin.github.io/",
+        "repo": "https://github.com/raunaqbhirangi/visuoskin",
+        "notes": "learning policies with magnetic skin sensors, simple framework that uses a transformer-based policy and treats skin sensor data as additional tokens to vision-based information.",
+        "x": 408.2222222222223,
+        "y": 497.6666666666667,
+        "zIndex": 304
+      },
+      {
+        "key": "BUMBLE",
+        "title": "Unifying Reasoning and Acting with VLMs for Building-Wide Mobile Manipulation",
+        "tags": [
+          "YukeZhu",
+          "policy",
+          "vlm"
+        ],
+        "paper": "https://arxiv.org/abs/2410.06237",
+        "website": "https://robin-lab.cs.utexas.edu/BUMBLE/",
+        "repo": "https://github.com/UT-Austin-RobIn/BUMBLE",
+        "notes": "a unified VLM-based framework integrating open-world RGBD perception, a wide spectrum of gross-to-fine motor skills, and dual-layered memory. ong-horizon building-wide tasks that require sequencing up to 12 ground truth skills spanning 15 minutes per trial.",
+        "x": 960.5555555555555,
+        "y": 398.55555555555554,
+        "zIndex": 297
+      },
+      {
+        "key": "HIL-SERL",
+        "title": "Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning",
+        "tags": [
+          "SergeyLevine",
+          "policy",
+          "RL"
+        ],
+        "paper": "https://hil-serl.github.io/static/hil-serl-paper.pdf",
+        "website": "https://hil-serl.github.io/",
+        "repo": "https://github.com/rail-berkeley/hil-serl",
+        "notes": "a set of libraries, env wrappers, and examples to train RL policies using a combination of demonstrations and human corrections to perform robotic manipulation tasks with near-perfect success rates.",
+        "x": 564.8888888888889,
+        "y": 498.1111111111111,
+        "zIndex": 305
+      }
+    ],
+    "zoom": 1
+  }

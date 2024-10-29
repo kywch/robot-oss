@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: '/card-table/',
+  base: '/robot-oss/',
   publicDir: 'public',
   resolve: {
     alias: {
