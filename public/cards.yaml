@@ -23,21 +23,21 @@ RoboCasa:
   repo: https://github.com/robocasa/robocasa
   notes: 2,500 3D assets across 150+ object categories and dozens of interactable furniture and appliances. A suite of 100 everyday activities with 100k demonstrations. 
 
-MimicGen:
-  title: A Data Generation System for Scalable Robot Learning using Human Demonstrations
-  tags: [NVIDIA, DieterFox, YukeZhu, dataset, RoboSuite]
-  paper: https://arxiv.org/abs/2310.17596
-  website: https://mimicgen.github.io/
-  repo: https://github.com/NVlabs/mimicgen
-  notes: We used MimicGen to autonomously generate over 50,000 demonstrations from less than 200 human demonstrations across 18 tasks
+# MimicGen:
+#   title: A Data Generation System for Scalable Robot Learning using Human Demonstrations
+#   tags: [NVIDIA, DieterFox, YukeZhu, dataset, RoboSuite]
+#   paper: https://arxiv.org/abs/2310.17596
+#   website: https://mimicgen.github.io/
+#   repo: https://github.com/NVlabs/mimicgen
+#   notes: We used MimicGen to autonomously generate over 50,000 demonstrations from less than 200 human demonstrations across 18 tasks
 
-RoboMimic:
-  title: What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
-  tags: [YukuZhu, FeiFei, policy, RoboSuite]
-  paper: https://arxiv.org/pdf/2108.03298
-  website: https://robomimic.github.io/
-  repo: https://github.com/ARISE-Initiative/robomimic
-  notes: A Framework for Robot Learning from Demonstration
+# RoboMimic:
+#   title: What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
+#   tags: [YukuZhu, FeiFei, policy, RoboSuite]
+#   paper: https://arxiv.org/pdf/2108.03298
+#   website: https://robomimic.github.io/
+#   repo: https://github.com/ARISE-Initiative/robomimic
+#   notes: A Framework for Robot Learning from Demonstration
 
 Behavior-1k:
   title: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation
@@ -47,13 +47,13 @@ Behavior-1k:
   repo: https://github.com/StanfordVL/OmniGibson
   notes: the 1,000 activities come from the results of an extensive survey on what do you want robots to do for you?
 
-ARCap:
-  title: Collecting High-quality Human Demonstrations for Robot Learning with Augmented Reality Feedback
-  tags: [FeiFei, data collection]
-  paper: https://arxiv.org/abs/2410.08464
-  website: https://stanford-tml.github.io/ARCap/
-  repo: https://github.com/Ericcsr/ARCap
-  notes: a portable data collection system that provides visual feedback through augmented reality (AR) and haptic warnings to guide users in collecting high-quality demonstrations.
+# ARCap:
+#   title: Collecting High-quality Human Demonstrations for Robot Learning with Augmented Reality Feedback
+#   tags: [FeiFei, data collection]
+#   paper: https://arxiv.org/abs/2410.08464
+#   website: https://stanford-tml.github.io/ARCap/
+#   repo: https://github.com/Ericcsr/ARCap
+#   notes: a portable data collection system that provides visual feedback through augmented reality (AR) and haptic warnings to guide users in collecting high-quality demonstrations.
 
 DigitalCousin:
   title: Automated Creation of Digital Cousins (ACDC) for Robust Policy Learning
@@ -63,43 +63,43 @@ DigitalCousin:
   repo: https://github.com/cremebrule/digital-cousins
   notes: ACDC can produce digital cousin scenes that preserve geometric and semantic affordances, and can be used to train policies that outperform policies trained on digital twins, achieving 90% vs. 25% under zero-shot sim-to-real transfer.
 
-LeRobot:
-  title: Making AI for Robotics more accessible with end-to-end learning
-  tags: [HuggingFace, policy, dataset]
-  repo: https://github.com/huggingface/lerobot
-  notes: contains state-of-the-art approaches that have been shown to transfer to the real-world with a focus on imitation learning and reinforcement learning.
+# LeRobot:
+#   title: Making AI for Robotics more accessible with end-to-end learning
+#   tags: [HuggingFace, policy, dataset]
+#   repo: https://github.com/huggingface/lerobot
+#   notes: contains state-of-the-art approaches that have been shown to transfer to the real-world with a focus on imitation learning and reinforcement learning.
 
-Diffusion:
-  title: Visuomotor Policy Learning via Action Diffusion
-  tags: [ShuranSong, policy]
-  paper: https://arxiv.org/abs/2303.04137
-  website: https://diffusion-policy.cs.columbia.edu/
-  repo: https://github.com/real-stanford/diffusion_policy
-  notes: the diffusion formulation yields powerful advantages when used for robot policies, including gracefully handling multimodal action distributions, being suitable for high-dimensional action spaces, and exhibiting impressive training stability.
+# Diffusion:
+#   title: Visuomotor Policy Learning via Action Diffusion
+#   tags: [ShuranSong, policy]
+#   paper: https://arxiv.org/abs/2303.04137
+#   website: https://diffusion-policy.cs.columbia.edu/
+#   repo: https://github.com/real-stanford/diffusion_policy
+#   notes: the diffusion formulation yields powerful advantages when used for robot policies, including gracefully handling multimodal action distributions, being suitable for high-dimensional action spaces, and exhibiting impressive training stability.
 
-OpenXEmbodiment:
-  title: Robotic Learning Datasets and RT-X Models
-  tags: [DeepMind, dataset, collaboration]
-  paper: https://arxiv.org/abs/2310.08864
-  website: https://robotics-transformer-x.github.io/
-  repo: https://github.com/google-deepmind/open_x_embodiment
-  notes: It contains 1M+ real robot trajectories spanning 22 robot embodiments, from single robot arms to bi-manual robots and quadrupeds.
+# OpenXEmbodiment:
+#   title: Robotic Learning Datasets and RT-X Models
+#   tags: [DeepMind, dataset, collaboration]
+#   paper: https://arxiv.org/abs/2310.08864
+#   website: https://robotics-transformer-x.github.io/
+#   repo: https://github.com/google-deepmind/open_x_embodiment
+#   notes: It contains 1M+ real robot trajectories spanning 22 robot embodiments, from single robot arms to bi-manual robots and quadrupeds.
 
-DROID:
-  title: A Large-Scale In-the-Wild Robot Manipulation Dataset
-  tags: [DeepMind, dataset, collaboration, robomimic]
-  paper: https://arxiv.org/abs/2403.12945
-  website: https://droid-dataset.github.io/
-  repo: https://droid-dataset.github.io/droid/
-  notes: DROID uses the same hardware setup across all 13 institutions. 76k demonstration trajectories or 350h of interaction data, collected across 564 scenes and 86 tasks
+# DROID:
+#   title: A Large-Scale In-the-Wild Robot Manipulation Dataset
+#   tags: [DeepMind, dataset, collaboration, robomimic]
+#   paper: https://arxiv.org/abs/2403.12945
+#   website: https://droid-dataset.github.io/
+#   repo: https://droid-dataset.github.io/droid/
+#   notes: DROID uses the same hardware setup across all 13 institutions. 76k demonstration trajectories or 350h of interaction data, collected across 564 scenes and 86 tasks
 
-UMI:
-  title: Universal Manipulation Interface. In-The-Wild Robot Teaching Without In-The-Wild Robots
-  tags: [ShuranSong, data collection]
-  paper: https://arxiv.org/abs/2402.10329
-  website: https://umi-gripper.github.io/
-  repo: https://github.com/real-stanford/universal_manipulation_interface
-  notes: UMI employs hand-held grippers enable portable, low-cost, and information-rich data collection for challenging bimanual and dynamic manipulation demonstrations. learned policies are hardware-agnostic and deployable across multiple robot platforms.
+# UMI:
+#   title: Universal Manipulation Interface. In-The-Wild Robot Teaching Without In-The-Wild Robots
+#   tags: [ShuranSong, data collection]
+#   paper: https://arxiv.org/abs/2402.10329
+#   website: https://umi-gripper.github.io/
+#   repo: https://github.com/real-stanford/universal_manipulation_interface
+#   notes: UMI employs hand-held grippers enable portable, low-cost, and information-rich data collection for challenging bimanual and dynamic manipulation demonstrations. learned policies are hardware-agnostic and deployable across multiple robot platforms.
 
 ManiWAV:
   title: Learning Robot Manipulation from In-the-Wild Audio-Visual Data
@@ -109,21 +109,21 @@ ManiWAV:
   repo: https://github.com/real-stanford/maniwav
   notes: Incorporating contact audio as additional source of information improves robustness and generalizability of the policy.
 
-AlohaACT:
-  title: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
-  tags: [ChelseaFinn, data collection, policy]
-  paper: https://arxiv.org/abs/2304.13705
-  website: https://tonyzhaozh.github.io/aloha/
-  repo: https://github.com/tonyzhaozh/aloha
-  notes: a low-cost system that performs end-to-end imitation learning directly from real demonstrations, collected with a custom teleoperation interface. Action Chunking with Transformers (ACT)
+# AlohaACT:
+#   title: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware
+#   tags: [ChelseaFinn, data collection, policy]
+#   paper: https://arxiv.org/abs/2304.13705
+#   website: https://tonyzhaozh.github.io/aloha/
+#   repo: https://github.com/tonyzhaozh/aloha
+#   notes: a low-cost system that performs end-to-end imitation learning directly from real demonstrations, collected with a custom teleoperation interface. Action Chunking with Transformers (ACT)
 
-MobileAloha:
-  title: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation
-  tags: [ChelseaFinn, data collection, dataset]
-  paper: https://arxiv.org/abs/2401.02117
-  website: https://mobile-aloha.github.io/
-  repo: https://github.com/MarkFzp/mobile-aloha
-  notes: It augments the ALOHA system with a mobile base, and a whole-body teleoperation interface.
+# MobileAloha:
+#   title: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation
+#   tags: [ChelseaFinn, data collection, dataset]
+#   paper: https://arxiv.org/abs/2401.02117
+#   website: https://mobile-aloha.github.io/
+#   repo: https://github.com/MarkFzp/mobile-aloha
+#   notes: It augments the ALOHA system with a mobile base, and a whole-body teleoperation interface.
 
 # AlohaUnleashed:
 #   title: A Simple Recipe for Robot Dexterity
@@ -132,29 +132,29 @@ MobileAloha:
 #   website: https://aloha-unleashed.github.io/
 #   notes: a simple recipe of large scale data collection, combined with expressive models such as Diffusion Policies, can be effective in learning challenging bimanual manipulation tasks involving deformable objects and complex contact rich dynamics.
 
-ManiSkill:
-  title: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI
-  tags: [HaoSu, benchmark, simulation]
-  paper: https://arxiv.org/abs/2410.00425
-  website: https://www.maniskill.ai/
-  repo: https://github.com/haosulab/ManiSkill
-  notes: 40+ skills/tasks with 2,000+ objects ready-to-use, millions of frames of demonstrations available, and dense reward functions.
+# ManiSkill:
+#   title: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI
+#   tags: [HaoSu, benchmark, simulation]
+#   paper: https://arxiv.org/abs/2410.00425
+#   website: https://www.maniskill.ai/
+#   repo: https://github.com/haosulab/ManiSkill
+#   notes: 40+ skills/tasks with 2,000+ objects ready-to-use, millions of frames of demonstrations available, and dense reward functions.
 
-TDMPC2:
-  title: Scalable, Robust World Models for Continuous Control
-  tags: [HaoSu, policy]
-  paper: https://arxiv.org/abs/2310.16828
-  website: https://www.tdmpc2.com/
-  repo: https://github.com/nicklashansen/tdmpc2
-  notes: agent capabilities increase with model and data size, and successfully train a single agent to perform 80 tasks across multiple task domains, embodiments, and action spaces
+# TDMPC2:
+#   title: Scalable, Robust World Models for Continuous Control
+#   tags: [HaoSu, policy]
+#   paper: https://arxiv.org/abs/2310.16828
+#   website: https://www.tdmpc2.com/
+#   repo: https://github.com/nicklashansen/tdmpc2
+#   notes: agent capabilities increase with model and data size, and successfully train a single agent to perform 80 tasks across multiple task domains, embodiments, and action spaces
 
-RFCL:
-  title: Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in RL
-  tags: [HaoSu, policy]
-  paper: https://arxiv.org/abs/2405.03379
-  website: https://reverseforward-cl.github.io/
-  repo: https://github.com/stonet2000/rfcl
-  notes: RFCL is capable of solving a wide range of complex tasks from just 1-10 demonstrations, far more demonstration efficient than prior model-free baselines.
+# RFCL:
+#   title: Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in RL
+#   tags: [HaoSu, policy]
+#   paper: https://arxiv.org/abs/2405.03379
+#   website: https://reverseforward-cl.github.io/
+#   repo: https://github.com/stonet2000/rfcl
+#   notes: RFCL is capable of solving a wide range of complex tasks from just 1-10 demonstrations, far more demonstration efficient than prior model-free baselines.
 
 SIMPLER:
   title: Evaluating Real-World Robot Manipulation Policies in Simulation
@@ -164,13 +164,13 @@ SIMPLER:
   repo: https://github.com/simpler-env/SimplerEnv
   notes: demonstrate strong correlation between policy performance in SIMPLER environments and in the real world
 
-OpenVLA:
-  title: An Open-Source Vision-Language-Action Model
-  tags: [DeepMind, ChelseaFinn, policy]
-  paper: https://arxiv.org/abs/2406.09246
-  website: https://openvla.github.io/
-  repo: https://github.com/openvla/openvla
-  notes: a 7B parameter open-source vision-language-action model (VLA), pretrained on 970k robot episodes from the Open X-Embodiment dataset.
+# OpenVLA:
+#   title: An Open-Source Vision-Language-Action Model
+#   tags: [DeepMind, ChelseaFinn, policy]
+#   paper: https://arxiv.org/abs/2406.09246
+#   website: https://openvla.github.io/
+#   repo: https://github.com/openvla/openvla
+#   notes: a 7B parameter open-source vision-language-action model (VLA), pretrained on 970k robot episodes from the Open X-Embodiment dataset.
 
 LAPA:
   title: Latent Action Pretraining from Videos
@@ -188,13 +188,13 @@ UMIonLegs:
   repo: https://github.com/real-stanford/umi-on-legs
   notes: robot data without robots, task tracking without simulating tasks, combining real-world human demonstrations with simulation trained whole-body controllers, providing a scalable approach for manipulation skills on robot dogs with arms.
 
-HumanoidBench:
-  title: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation
-  tags: [PieterAbbeel, benchmark, policy, RL, hierarchical]
-  paper: https://arxiv.org/abs/2403.10506
-  website: https://humanoid-bench.github.io/
-  repo: https://github.com/carlosferrazza/humanoid-bench
-  notes: featuring a humanoid robot equipped with dexterous hands and a variety of challenging whole-body manipulation and locomotion tasks.
+# HumanoidBench:
+#   title: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation
+#   tags: [PieterAbbeel, benchmark, policy, RL, hierarchical]
+#   paper: https://arxiv.org/abs/2403.10506
+#   website: https://humanoid-bench.github.io/
+#   repo: https://github.com/carlosferrazza/humanoid-bench
+#   notes: featuring a humanoid robot equipped with dexterous hands and a variety of challenging whole-body manipulation and locomotion tasks.
 
 HumanoidMPC:
   title: MuJoCo MPC for Humanoid Control, Evaluation on HumanoidBench
@@ -211,20 +211,20 @@ iDP3:
   repo: https://github.com/YanjieZe/Improved-3D-Diffusion-Policy
   notes: iDP3 enables a full-sized humanoid robot to autonomously perform skills in diverse real-world scenarios, using only data collected in the lab. Apple Vision Pro to build a whole-upper-body teleoperation system.
 
-JetsonAILab:
-  title: NVIDIA Jetson AI Lab
-  tags: [NVIDIA, Jetson, edge deploy]
-  website: https://www.jetson-ai-lab.com/
-  repo: https://github.com/dusty-nv/jetson-containers
-  notes: The Jetson AI Lab Research Group is a global collective for advancing open-source Edge ML. Containers provided by jetson-containers.
+# JetsonAILab:
+#   title: NVIDIA Jetson AI Lab
+#   tags: [NVIDIA, Jetson, edge deploy]
+#   website: https://www.jetson-ai-lab.com/
+#   repo: https://github.com/dusty-nv/jetson-containers
+#   notes: The Jetson AI Lab Research Group is a global collective for advancing open-source Edge ML. Containers provided by jetson-containers.
 
-VISTA:
-  title: View-Invariant Policy Learning via Zero-Shot Novel View Synthesis
-  tags: [Jiajun Wu, data augmentation]
-  paper: https://arxiv.org/abs/2409.03685
-  website: https://s-tian.github.io/projects/vista/
-  repo: https://github.com/s-tian/VISTA
-  notes: VISTA uses zero-shot novel view synthesis models, which generate novel views of an input image given a specified camera transformation, to create synthetic images for data augmentation. ZeroNVS has strong zero-shot performance on diverse data.
+# VISTA:
+#   title: View-Invariant Policy Learning via Zero-Shot Novel View Synthesis
+#   tags: [Jiajun Wu, data augmentation]
+#   paper: https://arxiv.org/abs/2409.03685
+#   website: https://s-tian.github.io/projects/vista/
+#   repo: https://github.com/s-tian/VISTA
+#   notes: VISTA uses zero-shot novel view synthesis models, which generate novel views of an input image given a specified camera transformation, to create synthetic images for data augmentation. ZeroNVS has strong zero-shot performance on diverse data.
 
 Gen2Act:
   title: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
@@ -241,13 +241,13 @@ GenSim2:
   repo: https://github.com/GenSim2/gensim2
   notes: uses multimodal LLMs to generate vast amounts of articulated, 6-dof robotic tasks in simulation for pre-training a generalist 3D multitask policies. The framework "amplifies" limited real world tasks and trajectories with foundation models.
 
-RUM:
-  title: Robot Utility Models, General Policies for Zero-Shot Deployment in New Environments
-  tags: [HelloRobot, LerrelPinto, policy]
-  paper: https://arxiv.org/abs/2409.05865
-  website: https://robotutilitymodels.com/
-  repo: https://github.com/haritheja-e/robot-utility-models/
-  notes: We feed in a summary of robot observations into a multimodal LLM, which determines whether or not the task at hand has succeeded. If the mLLM determines that the task has failed, the robot automatically resets to a new initial state and retries.
+# RUM:
+#   title: Robot Utility Models, General Policies for Zero-Shot Deployment in New Environments
+#   tags: [HelloRobot, LerrelPinto, policy]
+#   paper: https://arxiv.org/abs/2409.05865
+#   website: https://robotutilitymodels.com/
+#   repo: https://github.com/haritheja-e/robot-utility-models/
+#   notes: We feed in a summary of robot observations into a multimodal LLM, which determines whether or not the task at hand has succeeded. If the mLLM determines that the task has failed, the robot automatically resets to a new initial state and retries.
 
 ROSA:
   title: The ROS Agent
@@ -271,13 +271,13 @@ SGCRL:
   repo: https://github.com/graliuce/sgcrl/tree/main
   notes: empirical evidence of skills and directed exploration emerging from a simple RL algorithm long before any successful trials are observed. robot manipulation, maze. Try this with PPO
 
-PALO:
-  title: Policy Adaptation via Language Optimization. Decomposing Tasks for Few-Shot Imitation
-  tags: [SergeyLevine, policy, generalist]
-  paper: https://arxiv.org/abs/2408.16228
-  website: https://palo-website.github.io/
-  repo: https://github.com/vivekmyers/palo
-  notes: combines a handful of demonstrations of a task with proposed language decompositions sampled from a VLM to quickly enable rapid nonparametric adaptation, avoiding the need for a larger fine-tuning dataset.
+# PALO:
+#   title: Policy Adaptation via Language Optimization. Decomposing Tasks for Few-Shot Imitation
+#   tags: [SergeyLevine, policy, generalist]
+#   paper: https://arxiv.org/abs/2408.16228
+#   website: https://palo-website.github.io/
+#   repo: https://github.com/vivekmyers/palo
+#   notes: combines a handful of demonstrations of a task with proposed language decompositions sampled from a VLM to quickly enable rapid nonparametric adaptation, avoiding the need for a larger fine-tuning dataset.
 
 MaskedMimic:
   title: Unified Physics-Based Character Control Through Masked Motion Inpainting
@@ -311,13 +311,13 @@ BAKU:
   repo: https://github.com/siddhanthaldar/BAKU/tree/main
   notes: BAKU builds upon recent advancements in offline imitation learning and meticulously combines observation trunks, action chunking, multi-sensory observations, and action heads to substantially improve upon prior work. 
 
-DialMPC:
-  title: Full-Order Sampling-Based MPC for Torque-Level Locomotion Control via Diffusion-Style Annealing
-  tags: [policy, MPC]
-  paper: https://arxiv.org/abs/2409.15610
-  website: https://lecar-lab.github.io/dial-mpc/
-  repo: https://github.com/LeCAR-Lab/dial-mpc
-  notes: sampling-based MPC framework for legged robot full-order torque-level control with both precision and agility in a training-free manner.  you can test out the controller in a plug-and-play manner with minimum setup. 
+# DialMPC:
+#   title: Full-Order Sampling-Based MPC for Torque-Level Locomotion Control via Diffusion-Style Annealing
+#   tags: [policy, MPC]
+#   paper: https://arxiv.org/abs/2409.15610
+#   website: https://lecar-lab.github.io/dial-mpc/
+#   repo: https://github.com/LeCAR-Lab/dial-mpc
+#   notes: sampling-based MPC framework for legged robot full-order torque-level control with both precision and agility in a training-free manner.  you can test out the controller in a plug-and-play manner with minimum setup. 
 
 Diff-Control:
   title: Enabling Stateful Behaviors for Diffusion-based Policy Learning
@@ -398,10 +398,25 @@ HIL-SERL:
   repo: https://github.com/rail-berkeley/hil-serl
   notes: a set of libraries, env wrappers, and examples to train RL policies using a combination of demonstrations and human corrections to perform robotic manipulation tasks with near-perfect success rates.
 
-LIBERO:
-  title: Benchmarking Knowledge Transfer for Lifelong Robot Learning
-  tags: [YukeZhu, benchmark]
-  paper: https://arxiv.org/abs/2306.03310
-  website: https://libero-project.github.io/main.html
-  repo: https://github.com/Lifelong-Robot-Learning/LIBERO
-  notes: LIBERO highlights five key research topics in LLDM. 1) how to efficiently transfer declarative knowledge, procedural knowledge, or the mixture of both; 2) how to design effective policy architectures and 3) effective algorithms for LLDM; 4) the robustness of a lifelong learner with respect to task ordering; and 5) the effect of model pretraining for LLDM
+# LIBERO:
+#   title: Benchmarking Knowledge Transfer for Lifelong Robot Learning
+#   tags: [YukeZhu, benchmark]
+#   paper: https://arxiv.org/abs/2306.03310
+#   website: https://libero-project.github.io/main.html
+#   repo: https://github.com/Lifelong-Robot-Learning/LIBERO
+#   notes: LIBERO highlights five key research topics in LLDM. 1) how to efficiently transfer declarative knowledge, procedural knowledge, or the mixture of both; 2) how to design effective policy architectures and 3) effective algorithms for LLDM; 4) the robustness of a lifelong learner with respect to task ordering; and 5) the effect of model pretraining for LLDM
+
+HOVER:
+  title: Versatile Neural Whole-Body Controller for Humanoid Robots
+  tags: [NVIDIA, YukuZhu, policy, humanoid control]
+  paper: https://arxiv.org/abs/2410.21229
+  website: https://hover-versatile-humanoid.github.io/
+  notes: full-body kinematic motion imitation can serve as a common abstraction for all these tasks and provide general-purpose motor skills for learning multiple modes of whole-body control.  The versatile multi-mode command space supports kinematic position tracking (blue), local joint angle tracking (yellow), and root tracking (purple). 
+
+ManiCentricRepr:
+  title: Manipulation-Centric Robotic Representation from Large-Scale Robot Datasets
+  tags: [policy, representation, pre-training, contrastive loss, action prediction]
+  paper: https://arxiv.org/abs/2410.22325
+  website: https://robots-pretrain-robots.github.io/
+  repo: https://github.com/luccachiang/robots-pretrain-robots]
+  notes: Manipulation Centricity measures how well pre-trained visual representations correlate with downstream manipulation tasks, serving as a strong predictor of task success rates. Manipulation Centric Representation (MCR) enhances manipulation centricity by pre-training visual encoders with large-scale robotic data. DROID
