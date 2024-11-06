@@ -420,3 +420,79 @@ ManiCentricRepr:
   website: https://robots-pretrain-robots.github.io/
   repo: https://github.com/luccachiang/robots-pretrain-robots]
   notes: Manipulation Centricity measures how well pre-trained visual representations correlate with downstream manipulation tasks, serving as a strong predictor of task success rates. Manipulation Centric Representation (MCR) enhances manipulation centricity by pre-training visual encoders with large-scale robotic data. DROID
+
+DexMimicGen:
+  title: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
+  tags: [NVIDIA, YukeZhu, policy, dataset, bimanual]
+  paper: https://arxiv.org/abs/2410.24185
+  website: https://dexmimicgen.github.io/
+  notes:  We used DexMimicGen to autonomously generate over 20,000 demonstrations for bimanual dexterous robots from just 60 source human demonstrations across 9 tasks, multiple simulators, and the real-world.
+
+EgoMimic:
+  title: Scaling Imitation Learning through Egocentric Video
+  tags: [policy, data collection]
+  paper: https://arxiv.org/abs/2410.24221
+  website: https://egomimic.github.io/
+  repo: https://github.com/SimarKareer/EgoMimic
+  notes: a full-stack framework that scales manipulation through egocentric-view human demonstrations. human and robot data equally as embodied demonstration data and learns a unified policy from both data sources. scaling 1 hour of additional hand data is significantly more valuable than 1 hour of additional robot data. 
+
+3D-ViTac:
+  title: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing
+  tags: [policy, tactile]
+  paper: https://arxiv.org/abs/2410.24091
+  website: https://binghao-huang.github.io/3D-ViTac/
+  notes: To integrate tactile and visual data, we fuse them into a unified 3D representation space that preserves their 3D structures and spatial relationships. The multi-modal representation can then be coupled with diffusion policies for imitation learning. even low-cost robots can perform precise manipulations and significantly outperform vision-only policies 
+
+Im2Flow2Act:
+  title: Flow as the Cross-domain Manipulation Interface
+  tags: [ShuranSong, policy, flow-conditioned]
+  paper: https://arxiv.org/abs/2407.15208
+  website: https://im-flow-act.github.io/
+  repo: https://github.com/real-stanford/im2Flow2Act
+  notes: The flow generation network, trained on human demonstration videos, generates object flow from the initial scene image, conditioned on the task description. The flow-conditioned policy, trained on simulated robot play data, maps the generated object flow to robot actions to realize the desired object movements. By using flow as input, this policy can be directly deployed in the real world with a minimal sim-to-real gap.
+
+FlowBotHD:
+  title: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation 
+  tags: [policy, representation]
+  paper: https://arxiv.org/abs/2410.07078
+  website: https://flowbothd.github.io/
+  repo: https://github.com/liy1shu/FlowBotHD
+  notes: we propose a history-aware diffusion network that models the multi-modal distribution of the articulated object and uses history to disambiguate actions and make stable predictions under occlusions.
+
+SiriusFleet:
+  title: Multi-Task Interactive Robot Fleet Learning with Visual World Models
+  tags: [YukeZhu, policy, multi-agent, world model]
+  paper: https://arxiv.org/abs/2410.22689
+  website: https://ut-austin-rpl.github.io/sirius-fleet/
+  notes: We employ a visual world model to predict the outcomes of future actions and build anomaly predictors to predict whether they will likely result in anomalies. 
+
+RT-Affordance:
+  title: Affordances are Versatile Intermediate Representations for Robot Manipulation
+  tags: [policy, representation, affordance]
+  paper: https://arxiv.org/abs/2411.02704
+  website: https://snasiriany.me/rt-affordance
+  notes: Conditioning on language is intuitive, yet language typically does not provide enough guidance on how to perform the task. Goal images and trajectory sketches are over-specified and present learning challenges. We propose conditioning policies on intermediate affordance representations, which are expressive yet compact representations of tasks, making them easy to specify and to learn. 
+
+EmbodiedAgentInterface:
+  title: Benchmarking LLMs for Embodied Decision Making
+  tags: [FeiFei, JiajunWu, benchmark, LLM]
+  paper: https://arxiv.org/abs/2410.07166
+  website: https://embodied-agent-interface.github.io/
+  repo: https://github.com/embodied-agent-interface/embodied-agent-interface
+  notes: tackle the following challenges in evaluating LLMs for building embodied decision-making agents. (1) Standardization of goal specifications. (2) Standardization of modules and interfaces. (3) Broad coverage of evaluation and fine-grained metrics. 
+
+CloSD:
+  title: Closing the Loop between Simulation and Diffusion for multi-task character control
+  tags: [NVIDIA, policy, hierarchical, multi-task]
+  paper: https://arxiv.org/abs/2410.03441
+  website: https://guytevet.github.io/CLoSD-page/
+  repo: https://github.com/GuyTevet/CLoSD
+  notes: motion diffusion can serve as an on-the-fly universal planner for a robust RL controller. DiP is a fast-responding autoregressive diffusion model, controlled by textual prompts and target locations, and the controller is a simple and robust motion imitator that continuously receives motion plans from DiP and provides feedback from the environment.
+
+DrRobot:
+  title: Differentiable Robot Rendering
+  tags: [ShuranSong, policy]
+  paper: https://arxiv.org/abs/2410.13851
+  website: https://drrobot.cs.columbia.edu/
+  repo: https://github.com/cvlab-columbia/drrobot
+  notes: demonstrate its capability and usage in applications including reconstruction of robot poses from images and controlling robots through vision language models
